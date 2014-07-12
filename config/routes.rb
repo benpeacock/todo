@@ -1,4 +1,9 @@
 Todo::Application.routes.draw do
+  get "list/index"
+  get "list/create"
+  get "list/update"
+  get "list/destroy"
+  get "list/show"
   get "users/index"
   get "users/show"
   get "users/new"
